@@ -35,6 +35,11 @@ deactivate () {
     fi
 }
 
+
+export SECRET_KEY='django-insecure-(y5itjc=4hg=dvj4r*a%3ym&m#ve-&iai7^%!z$p=2!(8y3qrv'
+
+export DEBUG=True
+
 # unset irrelevant variables
 deactivate nondestructive
 
